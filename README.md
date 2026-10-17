@@ -17,8 +17,12 @@ La posición, el tamaño y el tamaño del texto se guardan en `timer_config.json
 
 ## Requisitos
 
-- Windows y Python 3 (por ejemplo, `winget install --exact --id Python.Python.3.12`). Tkinter ya viene incluido.
+- Windows y Python 3. Tkinter ya viene incluido.
 - [pycaw](https://pypi.org/project/pycaw/), para controlar el micrófono. Instálalo con:
+
+```powershell
+winget install --exact --id Python.Python.3.12
+```
 
 ```powershell
 pip install pycaw
